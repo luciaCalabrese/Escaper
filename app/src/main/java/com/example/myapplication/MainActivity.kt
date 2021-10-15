@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val boton1 = findViewById<Button>(R.id.bton)
+        val botontienda =  findViewById<Button>(R.id.button2)
 
         boton1.setOnClickListener {
 
@@ -19,5 +20,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(cambiando)
 
         }
+        botontienda.setOnClickListener {
+
+            val cambiando = Intent(this, MainActivity3::class.java)
+
+            startActivity(cambiando)
+
+        }
+
     }
 }
