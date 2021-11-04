@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 
 class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +16,15 @@ class MainActivity2 : AppCompatActivity() {
         botonfacil.setOnClickListener {
 
             val cambiando = Intent(this, facil::class.java)
+
+            startActivity(cambiando)
+
+        }
+        val atras =  findViewById<ImageView>(R.id.imageView)
+
+        atras.setOnClickListener {
+
+            val cambiando = Intent(this, MainActivity::class.java)
 
             startActivity(cambiando)
 
