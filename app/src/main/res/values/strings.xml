@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Ocean scape</string>
+    <string name="boton_tienda">Tienda</string>
+    <string name="boton_jugar">Jugar</string>
+    <string name="boton_facil">Facil</string>
+    <string name="boton_intertermedio">Intermedio</string>
+    <string name="boton_dificil">Dificil</string>
+
 </resources>
