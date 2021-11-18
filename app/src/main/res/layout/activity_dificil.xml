@@ -7,7 +7,79 @@
     android:background="@drawable/fondo"
     android:backgroundTint="@color/design_default_color_primary_dark"
     android:backgroundTintMode="add"
-    tools:context=".facil">
+    tools:context=".dificil">
+
+    <Button
+        android:id="@+id/button7"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/nueve"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/button16"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/diez"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.688"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <Button
+        android:id="@+id/button17"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/once"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <Button
+        android:id="@+id/button18"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/trece"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
 
     <Button
         android:id="@+id/button8"
@@ -25,64 +97,28 @@
         app:layout_constraintHorizontal_bias="0.395"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79" />
+        app:layout_constraintVertical_bias="0.804" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/button6"
 
         style="@style/Widget.AppCompat.PopupMenu"
         android:layout_width="69dp"
         android:layout_height="52dp"
         android:backgroundTint="@color/design_default_color_primary_dark"
         android:backgroundTintMode="add"
-        android:text="@string/siete"
+        android:text="@string/doce"
         app:circularflow_defaultRadius="30dp"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintVertical_bias="0.365" />
 
     <Button
-        android:id="@+id/button10"
-
-        style="@style/Widget.AppCompat.PopupMenu"
-        android:layout_width="69dp"
-        android:layout_height="52dp"
-        android:backgroundTint="@color/design_default_color_primary_dark"
-        android:backgroundTintMode="add"
-        android:text="@string/seis"
-        app:circularflow_defaultRadius="30dp"
-        app:cornerRadius="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.293"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.352" />
-
-    <Button
-        android:id="@+id/button11"
-
-        style="@style/Widget.AppCompat.PopupMenu"
-        android:layout_width="69dp"
-        android:layout_height="52dp"
-        android:backgroundTint="@color/design_default_color_primary_dark"
-        android:backgroundTintMode="add"
-        android:text="@string/cinco"
-        app:circularflow_defaultRadius="30dp"
-        app:cornerRadius="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.475" />
-
-    <Button
-        android:id="@+id/button12"
+        android:id="@+id/button14"
 
         style="@style/Widget.AppCompat.PopupMenu"
         android:layout_width="69dp"
@@ -94,10 +130,99 @@
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.737"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
+        app:layout_constraintVertical_bias="0.692" />
+
+    <Button
+        android:id="@+id/button15"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/cinco"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/button9"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/catorce"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <Button
+        android:id="@+id/button10"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/siete"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <Button
+        android:id="@+id/button11"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/ocho"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <Button
+        android:id="@+id/button12"
+
+        style="@style/Widget.AppCompat.PopupMenu"
+        android:layout_width="69dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:backgroundTintMode="add"
+        android:text="@string/seis"
+        app:circularflow_defaultRadius="30dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
 
     <Button
         android:id="@+id/button13"
@@ -112,10 +237,10 @@
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintHorizontal_bias="0.712"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.803" />
 
     <TextView
         android:id="@+id/textView6"
@@ -247,10 +372,10 @@
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.644" />
+        app:layout_constraintVertical_bias="0.758" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -265,15 +390,15 @@
         app:srcCompat="@drawable/is" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="142dp"
-        android:layout_height="160dp"
+        android:id="@+id/imageView4"
+        android:layout_width="161dp"
+        android:layout_height="209dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099"
+        app:layout_constraintVertical_bias="0.11"
         app:srcCompat="@drawable/isf" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

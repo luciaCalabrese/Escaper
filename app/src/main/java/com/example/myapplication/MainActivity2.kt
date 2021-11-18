@@ -38,6 +38,15 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(cambiando)
 
         }
+        val dificiles=  findViewById<Button>(R.id.button4)
+
+        dificiles.setOnClickListener {
+
+            val cambiando = Intent(this, dificil::class.java)
+
+            startActivity(cambiando)
+
+        }
     }
 
 
