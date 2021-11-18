@@ -20,6 +20,15 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(cambiando)
 
         }
+        val botonIntermedio =  findViewById<Button>(R.id.button3)
+
+        botonIntermedio.setOnClickListener {
+
+            val cambiando = Intent(this, Nivelintermedio::class.java)
+
+            startActivity(cambiando)
+
+        }
         val atras =  findViewById<ImageView>(R.id.imageView)
 
         atras.setOnClickListener {
