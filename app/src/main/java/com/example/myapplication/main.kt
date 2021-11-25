@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class main : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -15,14 +15,14 @@ class MainActivity : AppCompatActivity() {
 
         boton1.setOnClickListener {
 
-            val cambiando = Intent(this, MainActivity2::class.java)
+            val cambiando = Intent(this, dificultad::class.java)
 
             startActivity(cambiando)
 
         }
         botontienda.setOnClickListener {
 
-            val cambiando = Intent(this, MainActivity3::class.java)
+            val cambiando = Intent(this, tienda::class.java)
 
             startActivity(cambiando)
 

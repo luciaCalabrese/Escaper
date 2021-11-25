@@ -13,19 +13,19 @@
             android:name=".dificil"
             android:exported="true" />
         <activity
-            android:name=".Nivelintermedio"
+            android:name=".medio"
             android:exported="true" />
         <activity
             android:name=".facil"
             android:exported="true" />
         <activity
-            android:name=".MainActivity3"
+            android:name=".tienda"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".dificultad"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

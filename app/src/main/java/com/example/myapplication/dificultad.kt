@@ -6,10 +6,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 
-class MainActivity2 : AppCompatActivity() {
+class dificultad : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_dificultad)
 
         val botonfacil =  findViewById<Button>(R.id.button)
 
@@ -24,7 +24,7 @@ class MainActivity2 : AppCompatActivity() {
 
         botonIntermedio.setOnClickListener {
 
-            val cambiando = Intent(this, Nivelintermedio::class.java)
+            val cambiando = Intent(this, medio::class.java)
 
             startActivity(cambiando)
 
@@ -33,7 +33,7 @@ class MainActivity2 : AppCompatActivity() {
 
         atras.setOnClickListener {
 
-            val cambiando = Intent(this, MainActivity::class.java)
+            val cambiando = Intent(this, main::class.java)
 
             startActivity(cambiando)
 

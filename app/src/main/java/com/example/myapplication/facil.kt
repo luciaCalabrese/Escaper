@@ -3,7 +3,6 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 
 class facil : AppCompatActivity() {
@@ -15,7 +14,7 @@ class facil : AppCompatActivity() {
 
         botonfacil.setOnClickListener {
 
-            val cambiando = Intent(this, MainActivity2::class.java)
+            val cambiando = Intent(this, dificultad::class.java)
 
             startActivity(cambiando)
 
