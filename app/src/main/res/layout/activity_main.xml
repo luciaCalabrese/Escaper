@@ -8,7 +8,7 @@
     tools:context=".main">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/tienda_main"
         android:layout_width="162dp"
         android:layout_height="62dp"
         android:text="@string/boton_tienda"
@@ -22,7 +22,7 @@
         app:rippleColor="#03A9F4" />
 
     <Button
-        android:id="@+id/bton"
+        android:id="@+id/jugar_main"
         android:layout_width="148dp"
         android:layout_height="64dp"
         android:background="#FF0000"
@@ -36,6 +36,7 @@
         app:layout_constraintVertical_bias="0.735" />
 
     <ImageView
+        android:id="@+id/fondo_main"
         android:layout_width="399dp"
         android:layout_height="874dp"
         android:layout_gravity=""
@@ -47,6 +48,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/barco_main"
         android:layout_width="329dp"
         android:layout_height="328dp"
         android:src="@drawable/barco"
@@ -57,7 +59,7 @@
         app:layout_constraintVertical_bias="0.327" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/ajustes_main"
         android:layout_width="70dp"
         android:layout_height="86dp"
         app:layout_constraintBottom_toBottomOf="parent"

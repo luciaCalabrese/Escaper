@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondodeabajo"
+    android:background="@drawable/madera"
     tools:context=".tienda" >
 
     <ImageView
@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/f"
+        app:srcCompat="@drawable/volver"
         android:contentDescription="TODO" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -67,7 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.563"
-        app:srcCompat="@drawable/p"
+        app:srcCompat="@drawable/pocion"
         tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -80,7 +80,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.562"
-        app:srcCompat="@drawable/p"
+        app:srcCompat="@drawable/pocion"
         tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -93,7 +93,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.562"
-        app:srcCompat="@drawable/p"
+        app:srcCompat="@drawable/pocion"
         tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -106,7 +106,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.884"
-        app:srcCompat="@drawable/i"
+        app:srcCompat="@drawable/pista"
         tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -119,7 +119,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.881"
-        app:srcCompat="@drawable/i"
+        app:srcCompat="@drawable/pista"
         tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -132,7 +132,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.883"
-        app:srcCompat="@drawable/i"
+        app:srcCompat="@drawable/pista"
         tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

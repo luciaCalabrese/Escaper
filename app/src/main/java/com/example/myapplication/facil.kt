@@ -10,7 +10,7 @@ class facil : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_facil)
 
-        val botonfacil =  findViewById<ImageView>(R.id.imageView17)
+        val botonfacil =  findViewById<ImageView>(R.id.volver_facil)
 
         botonfacil.setOnClickListener {
 
