@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".nivelFinal"
+            android:exported="true" />
+        <activity
             android:name=".nivel1"
             android:exported="true" />
         <activity
             android:name=".slash"
             android:exported="true"
             android:theme="@style/splash_name">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +42,7 @@
             android:exported="true" />
         <activity
             android:name=".main"
-            android:exported="true"></activity>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
