@@ -8,7 +8,7 @@
     tools:context=".nivel1">
 
     <TextView
-        android:id="@+id/nivel1_rta4"
+        android:id="@+id/Rta4_nivel1"
         android:layout_width="168dp"
         android:layout_height="53dp"
         android:background="#F8F4F4"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.71" />
 
     <TextView
-        android:id="@+id/nivel1_rta3"
+        android:id="@+id/Rta3_nivel1"
         android:layout_width="168dp"
         android:layout_height="53dp"
         android:background="#F8F7F7"
@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="0.711" />
 
     <TextView
-        android:id="@+id/nivel1_rta2"
+        android:id="@+id/Rta2_nivel1"
         android:layout_width="168dp"
         android:layout_height="53dp"
         android:background="#FBF9F9"
