@@ -14,7 +14,9 @@
             android:exported="true" />
         <activity
             android:name=".slash"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/splash_name">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
